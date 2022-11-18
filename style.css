@@ -1,0 +1,137 @@
+*{
+    margin:0%;
+/* Nav Bar */
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(80, 80, 80);
+}
+header {
+    background-color: rgb(91, 184, 126);
+    color: #c2bfbf;
+    width: 100%;
+    display: flex;
+    gap: 20% ;
+    padding-left: 26%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    height: 50px;
+    
+    
+
+}
+.capa{
+
+    width: 150px;
+    text-decoration: none;
+    color: rgb(91, 184, 126);
+    background-color: #ffffff;
+    height: 50px;
+    padding-left: 29px;
+}
+header a {
+    color: #f5f4f4;;
+    /* padding: 30px 30px 30px 0px; */
+    text-decoration: none;
+}
+.group{
+    display: flex;
+    gap: 50px;
+}
+header p{
+    padding-top: 15px; 
+    }
+.code{
+        width: 100%;
+        background-color: rgb(19, 18, 18);
+         filter: brightness(0.2); 
+    }
+    .h11{
+        position: absolute;
+        top: 40%; 
+        left: 40%;
+        transform: translate(-30%, -30%);
+        text-align: center;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 60px;
+    }
+    .h33{
+        text-align: center;
+        color: rgb(91, 184, 126); 
+        font-weight: 100;
+        font-size: 30px;
+        position: absolute;
+        top: 50%; 
+        left: 45%;
+        transform: translate(-30%, -30%);
+    }
+    .section2{
+        background-color: rgb(80, 80, 80);
+        color: #ffffff;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .img2{
+        width: 30px;
+        height: 30px;
+        color: #ffffff;
+        background-color: #ffffff;
+        overflow: hidden;
+        border-radius: 40px;
+        
+    }
+    
+    @media (min-width: 320px) and (max-width: 768px) {
+      
+        header {
+            background-color: rgb(91, 184, 126);
+            color:  rgb(91, 184, 126);
+            width: 100%;
+            display: flex;
+            gap: 10% ;
+            padding-left: 5%;
+            overflow-x: hidden;
+            transition: 0.5s;
+            height: 50px; }
+            .capa{
+
+                width: 115px;
+                text-decoration: none;
+                color: rgb(91, 184, 126);
+                background-color: #ffffff;
+                height: 50px;
+                padding-left: 2px;}
+            .group{
+                display: flex;
+                gap: 10px;
+            }
+            .code{
+                width: 100%;
+                height: 360px;
+            }
+            .h11{
+                top: 25%;
+                left: 12%;
+                transform: translate(-10%, -10%);
+                text-align: center;
+                color: #ffffff;
+                font-weight: 900;
+                font-size: 25px;
+                margin-left: 6px;
+                
+            }
+            .h33{
+                top: 30%;
+                left: 35%;
+                transform: translate(-20%, -20%);
+                text-align: center;
+                color: rgb(91, 184, 126); 
+                font-weight: 100;
+                font-size: 15px;
+            }
+        }
+
+
+
+
