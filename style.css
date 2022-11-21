@@ -4,7 +4,9 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(80, 80, 80);
+    /* background-color: rgb(80, 80, 80); */
+    width: 100%;
+    background-color: rgb(52, 62, 70);
 }
 header {
     background-color: rgb(91, 184, 126);
@@ -12,7 +14,7 @@ header {
     width: 100%;
     display: flex;
     gap: 20% ;
-    padding-left: 26%;
+    /* padding-left: 26%; */
     overflow-x: hidden;
     transition: 0.5s;
     height: 50px;
@@ -22,12 +24,14 @@ header {
 }
 .capa{
 
-    width: 150px;
+    width: 100px;
     text-decoration: none;
     color: rgb(91, 184, 126);
     background-color: #ffffff;
     height: 50px;
-    padding-left: 29px;
+    padding-left: 5px;
+    margin-left: 20%;
+    font-weight: bold;
 }
 header a {
     color: #f5f4f4;;
@@ -49,8 +53,8 @@ header p{
     .h11{
         position: absolute;
         top: 40%; 
-        left: 40%;
-        transform: translate(-30%, -30%);
+        left: 32%;
+        transform: translate(-25%, -25%);
         text-align: center;
         color: #ffffff;
         font-weight: 800;
@@ -62,15 +66,19 @@ header p{
         font-weight: 100;
         font-size: 30px;
         position: absolute;
-        top: 50%; 
+        top: 54%; 
         left: 45%;
         transform: translate(-30%, -30%);
     }
     .section2{
-        background-color: rgb(80, 80, 80);
+        background-color: rgb(52, 62, 70);
         color: #ffffff;
         text-align: center;
         padding-top: 10%;
+        height: 500px;
+        padding-bottom: 5%;
+        margin-top: 0%;
+        
     }
     .img2{
         width: 30px;
@@ -79,7 +87,61 @@ header p{
         background-color: #ffffff;
         overflow: hidden;
         border-radius: 40px;
-        
+    }
+    .icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:4px;
+        text-align: center;
+        gap: 10px;
+        margin-left: 30%;
+         /* transform: translate(-40%, -30%);  */
+        margin-right: 30%;
+    }
+
+    .icon2{
+          display: flex;
+          gap: 5%;
+          margin-left: 42%;
+    }
+    .icon2 a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+ hr{
+    margin-top: 15%;
+ }
+
+    .h12{
+        text-align: center;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 60px;
+    }
+    h4{
+        text-align: center;
+        color: rgb(255, 255, 255); 
+        font-weight: 20;
+        font-size: 20px;
+    }
+   
+    .fc{
+        margin-left: 20%;
+        font-weight: lighter;
+       ;
+       margin-top: 50px;
+    
+    }
+    .Fish{
+        display: flex;
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 03%;
+        gap: 150px;
+    }
+    .icon a {
+        text-decoration: none;
+        color: #ffffff;
     }
     
     @media (min-width: 320px) and (max-width: 768px) {
@@ -96,11 +158,12 @@ header p{
             height: 50px; }
             .capa{
 
-                width: 115px;
+                width: 110px;
                 text-decoration: none;
                 color: rgb(91, 184, 126);
                 background-color: #ffffff;
                 height: 50px;
+                margin-left: 2%;
                 padding-left: 2px;}
             .group{
                 display: flex;
@@ -112,25 +175,89 @@ header p{
             }
             .h11{
                 top: 25%;
-                left: 12%;
-                transform: translate(-10%, -10%);
-                text-align: center;
+                left: 55px;
+                margin-right: 0px;
+                 transform: translate(-6%, -25%); 
                 color: #ffffff;
                 font-weight: 900;
-                font-size: 25px;
-                margin-left: 6px;
+                font-size: 30px;
+                text-align: center;
+               
                 
             }
             .h33{
-                top: 30%;
+                top: 36%;
                 left: 35%;
-                transform: translate(-20%, -20%);
+                transform: translate(-1%, -25%);
                 text-align: center;
                 color: rgb(91, 184, 126); 
                 font-weight: 100;
-                font-size: 15px;
+                font-size: 12px;
             }
+            .img2{
+                width: 20px;
+                height: 20px;
+                color: #ffffff;
+                background-color: #ffffff;
+                overflow: hidden;
+                border-radius: 40px;
+            }
+            .icon{
+                display:flex;
+                text-align: center;
+                gap: 10px;
+                margin-left: 18%;
+                 /* KCtransform: translate(-12%, -12%); */ */
+               font-size: 10px; 
+               margin-top: -15%;
+
+        
+            }
+            .h12{
+                text-align: center;
+                color: #ffffff;
+                color: #ffffff;
+                font-weight: 900;
+                font-size: 25px;
+                text-align: center;
+            }
+            h4{
+                text-align: center;
+                color: rgb(255, 255, 255); 
+                font-weight: 100;
+                font-size: 12px;
         }
+        span{
+            font-size: smaller;
+        }
+           
+        
+        .fc{
+            margin-left: 2%;
+            font-weight: lighter;
+           ;
+           margin-top: -70px;
+        }
+
+        .icon2{
+            display: flex;
+            gap: 5%;
+            margin-left: 20%;
+      }
+      .icon2 a{
+          text-decoration: none;
+          color: #ffffff;
+      }
+      hr{
+        margin-top: 10%;
+      }
+      .Fish{
+        display: flex;
+        margin-left: 3%;
+        margin-top: 03%;
+        gap: 10px;
+      }
+    }
 
 
 
