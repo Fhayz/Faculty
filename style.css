@@ -24,12 +24,12 @@ header {
 }
 .capa{
 
-    width: 100px;
+    width: 130px;
     text-decoration: none;
     color: rgb(91, 184, 126);
     background-color: #ffffff;
     height: 50px;
-    padding-left: 5px;
+    padding-left: 10px;
     margin-left: 20%;
     font-weight: bold;
 }
@@ -53,7 +53,7 @@ header p{
     .h11{
         position: absolute;
         top: 40%; 
-        left: 32%;
+        left: 39%;
         transform: translate(-25%, -25%);
         text-align: center;
         color: #ffffff;
